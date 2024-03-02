@@ -14,7 +14,7 @@ class BaseSvgFormatterCommand(sublime_plugin.TextCommand):
             processed_svg = self.process_svg(svg_content)
             self.view.replace(edit, all_content_region, processed_svg)
         except Exception as e:
-            sublime.error_message(f"Error processing SVG: {str(e)}")
+            sublime.error_message(f"Error processing SVG: " + str(e))
     
     def process_svg(self, svg_content):
         raise NotImplementedError

@@ -21,7 +21,7 @@ This plugin is available through Package Control:
 3. Clone the SVG Formatter repository into this directory:
 
    ```bash
-   git clone https://github.com/sergioloppe/svg-formatter.git SVGFormatter
+   git clone https://github.com/sergioloppe/svg-formatter.git SublimeSvgFormatter
 
 
 ## Usage
