@@ -1,6 +1,9 @@
 [
     {
-        "caption": "SVG: Format",
-        "command": "svg_formatter"
+        "caption": "SVG Formatter: Prettify",
+        "command": "svg_formatter_prettify"
+    }, {
+        "caption": "SVG Formatter: Minify",
+        "command": "svg_formatter_minify" 
     }
 ]
